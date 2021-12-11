@@ -1,0 +1,200 @@
+.container {
+    width: 100%;
+    background: url(https://static.web.sdo.com/mxd/pic/mxd/web6/changeBg/home_wrap211130.jpg) no-repeat 50% -50px #fff;
+}
+
+/*å¯¼èˆª*/
+.header {}
+
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.w1160 {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.header .w1200 {
+    position: relative;
+    z-index: 100;
+    height: 355px;
+}
+
+.header .mxd_logo {
+    position: absolute;
+    z-index: 15;
+    top: 22px;
+    left: 40px;
+    width: 132px;
+    height: 107px;
+}
+
+.header .mxd_logo a {
+    display: block;
+    text-indent: -999em;
+    width: 100%;
+    height: 100%;
+    background: url(https://static.web.sdo.com/mxd/pic/mxd/web6/changeBg/mxd_logo.png) no-repeat;
+}
+
+/*.header .age_tips {
+    position: absolute;
+    z-index: 15;
+    top: 139px;
+    left: 39px;
+    color: #000;
+}*/
+
+.header .age_tips{ position:absolute; top:82px; right:0; display: block; width: 106px; height: 138px; background: url(https://static.web.sdo.com/mxd/pic/mxd/web6/index/mxd-age-icon.png) no-repeat;}
+
+.header .act_link {
+    position: absolute;
+    top: 80px;
+    left: 370px;
+    display: block;
+    text-indent: -999em;
+    width: 425px;
+    height: 275px;
+}
+
+.header .nav {
+    position: absolute;
+    z-index: 10;
+    top: 0px;
+    left: 305px;
+    width: 840px;
+    height: 70px;
+}
+
+.header .mainNav {
+    position: absolute;
+    z-index: 10;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+}
+
+.header .mainNav li {
+    float: left;
+    width: 90px;
+    padding-right: 30px;
+}
+
+.header .mainNav li a {
+    display: block;
+    width: 90px;
+    height: 40px;
+    display: block;
+    text-align: center;
+}
+
+.header .mainNav li a strong {
+    display: block;
+    font-size: 16px;
+    font-family: 'Microsoft Yahei';
+    /* color: #182239; */
+    color: white;
+    line-height: 24px;
+    /* text-shadow: 0 0 1px #000; */
+    text-shadow: 0 0 1px white;
+}
+
+.header .mainNav li a i {
+    font: 11px "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", arial, tahoma, sans-serif;
+    color: #979797;
+    line-height: 14px;
+    font-style: normal;
+    font-variant: small-caps;
+    display: block;
+    margin-top: -2px;
+}
+
+.header .subNav {
+    display: none;
+    width: 2000px;
+    height: 355px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -1125px;
+    background: url(https://static.web.sdo.com/mxd/pic/mxd/web6/home/nav_bg2.png) no-repeat 0 0;
+}
+
+.header .subNav .subMain {
+    width: 780px;
+    padding: 0 0 0 420px;
+    margin: 0 auto;
+}
+
+.header .subNav dl {
+    float: left;
+    width: 110px;
+    height: 280px;
+    padding: 75px 10px 0 0;
+}
+
+.header .subNav dl dd {
+    width: 110px;
+    height: 23px;
+    line-height: 23px;
+    color: #000;
+    text-align: center;
+}
+
+.header .subNav dl dd a {
+    display: block;
+    width: 100px;
+    height: 28px;
+    color: #fff;
+}
+
+.header .subNav dl dd a:hover {
+    color: #ff2d04;
+    transition: color .3s ease;
+    -webkit-transition: color .3s ease;
+    -moz-transition: color .3s ease;
+    -o-transition: color .3s ease;
+}
+
+.header .act_link {
+    position: absolute;
+    top: 100px;
+    left: 440px;
+    display: block;
+    text-indent: -999em;
+    width: 420px;
+    height: 240px;
+}
+
+/*åº•éƒ¨*/
+.footer {}
+
+.footer p {
+    line-height: 26px;
+    text-align: center;
+}
+
+.footer p.advice {
+    padding-top: 26px;
+    color: #666;
+}
+
+.footer p.advice span {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.footer p.copyright {
+    color: #d0d0c6;
+}
+
+.footer .bg {
+    width: 100%;
+    height: 92px;
+    font-size: 1px;
+    background: url(https://static.web.sdo.com/mxd/pic/mxd/web6/home/footer_bg.png) repeat-x 50% 50%;
+    overflow: hidden;
+}
